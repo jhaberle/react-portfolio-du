@@ -1,0 +1,103 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  float: left;
+  margin-right: 70%;
+  margin-left: 5px;
+  font-size: medium;
+  width: 90%;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+  margin-left: -300px;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+  border: solid lawngreen;
+  border-width: thick;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.form-group,
+h1 {
+  margin-left: 20px;
+}
+
+.btn-dark {
+  color: white;
+  background-color: #343a40;
+  border-color: #343a40;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  border: solid lawngreen;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  background-color: #232629;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  bottom: 0;
+  z-index: 9999999;
+  border: solid lawngreen;
+  border-width: thick;
+}
+
+#picture {
+  float: left;
+  height: 90%;
+  width: 90%;
+  position: relative;
+}
+
+p {
+  font-size: 19px;
+  /* margin-right: 10px; */
+}
+
+#portImg {
+  position: relative;
+  width: 90%;
+  height: 90%;
+}
+
+body {
+  margin-bottom: 30px;
+}
+
+#ribbon {
+  width: 90%;
+  position: relative;
+  height: 20px;
+  background-color: lawngreen;
+  text-align: center;
+  color: #232629;
+  z-index: 999998;
+  bottom: 40px;
+}
+
+#divide {
+  width: 100%;
+  height: 5px;
+  background-color: lawngreen;
+}
+
+.links {
+  float: right;
+  margin: 30 px;
+}
